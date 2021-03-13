@@ -1,0 +1,5 @@
+.Landing{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+}

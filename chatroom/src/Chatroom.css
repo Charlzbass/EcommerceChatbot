@@ -1,0 +1,44 @@
+.chatview{
+    height:100%;
+    width:100%;
+    position:relative;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
+.messageContainer{
+    display: flex;
+    background: #6603c9;
+    flex-direction: column;
+    padding: 0 20px;
+    overflow-y: scroll;
+    border-top: 2px solid #3d0661;
+    border-left: 2px solid #3d0661;
+}
+
+.MyRow{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+
+.userRow{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    flex-direction: column;
+    position: relative;
+}
+
+.MyMessage{
+    width: 45%;
+    background-color: #3d0661;
+    color: #ffffff;
+    padding: 10px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 14px 14px 0 14px;
+}
