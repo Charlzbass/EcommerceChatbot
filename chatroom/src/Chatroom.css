@@ -1,3 +1,9 @@
+.Landing{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+}
+
 .chatview{
     height:100%;
     width:100%;
@@ -8,7 +14,7 @@
 
 .messageContainer{
     display: flex;
-    background: #6603c9;
+    background: #201d24;
     flex-direction: column;
     padding: 0 20px;
     overflow-y: scroll;
